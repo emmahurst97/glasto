@@ -1,11 +1,11 @@
-from .client import RefresherClient
+from client import RefresherClient
 import os  # Add this import
 
 import time
 
 from selenium.webdriver.common.keys import Keys
 
-from .client import RefresherClient
+from client import RefresherClient
 
 gl.DRIVER_PATH = os.path.join(os.getcwd(), 'chrome_mac_arm64')
 
