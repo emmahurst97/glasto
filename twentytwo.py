@@ -1,4 +1,4 @@
-from client import RefresherClient
+from .client import RefresherClient
 import os  # Add this import
 
 import time
@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 from client import RefresherClient
 
-gl.DRIVER_PATH = os.path.join(os.getcwd(), 'chrome_mac_arm64')
+gl.DRIVER_PATH = os.path.join(os.getcwd(), 'chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing')
 
 class Twenty20(RefresherClient):
     """
